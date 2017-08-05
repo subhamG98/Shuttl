@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="2dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/date"
+        android:padding="10dp"
+        android:text="1 August 2017"
+        android:textSize="18sp"
+        android:background="#D3D3D3"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/name1"
+        android:text="Some Name"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="70dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/title"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:text="Some Title appear here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btLike"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="#D3D3D3"
+            android:text="Like"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/name"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="From Someone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/description"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Some Description appear here"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
